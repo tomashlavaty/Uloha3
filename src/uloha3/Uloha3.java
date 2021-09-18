@@ -21,7 +21,7 @@ public class Uloha3 {
         Skrinky skrinky=new Skrinky(100);
          
      
-        int dlzkaKroku = 1;
+        int dlzkaKroku = 1;//master
 
         do {
             for (int i = 0; i < skrinky.pocet; i += dlzkaKroku) {
